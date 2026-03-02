@@ -1,6 +1,6 @@
 #
-# Copyright © 2025 pyjamabrah.com. All Rights Reserved.
-# Author: Piyush Itankar <piyush@pyjamabrah.com>
+# Copyright © 2026 pyjamacafe.com. All Rights Reserved.
+# Author: Piyush Itankar <piyush@pyjamacafe.com>
 #
 
-FROM pyjamabrah/sandbox:latest
+FROM pyjamacafe/sandbox:latest
