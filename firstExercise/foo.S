@@ -11,4 +11,15 @@ reset_handler:
     mov r1, #0x1
     mov r2, #0x2
     add r3, r1, r2
+
+jump_label_1:
+    mov r5 , r3
+    lsl r6 , r5 , #02
+    b jump_label_2
+
+jump_label_2:
+    sub r4 , r1 , r2
+    b end
+
+end:
     bl .

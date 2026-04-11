@@ -1,1 +1,5 @@
 qemu-system-arm -machine help
+
+arm-none-eabi-objcopy -O binary <source>.elf <destination>.binary
+
+xxd -e -c 4 -g 4 <source>.bin -> Too print all the memory addressing of the bin file
