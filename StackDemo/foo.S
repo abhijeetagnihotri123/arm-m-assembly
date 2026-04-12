@@ -1,3 +1,4 @@
+
 .section .vectors
 vector_table:
     .word 0x20001000
